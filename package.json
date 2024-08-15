@@ -5,7 +5,6 @@
     "main": "server.js",
     "scripts": {
         "server": "node backend/server.js",
-         "server": "node backend/server.js",
         "dev": "nodemon backend/server.js"
     },
     "type": "module",
@@ -22,6 +21,7 @@
         "socket.io": "^4.7.5"
     },
     "devDependencies": {
-        "nodemon": "^3.1.4"
+        "nodemon": "^3.1.4",
+        "tailwindcss": "^3.4.9"
     }
 }

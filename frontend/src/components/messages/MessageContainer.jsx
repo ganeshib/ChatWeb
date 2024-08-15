@@ -1,6 +1,6 @@
 import MessageInput from "./MessageInput";
 import Messages from "./Messages";
-import { TiMessages } from "react-icons/ti";
+import { TiMessages } from "act-icons/ti";
 
 const MessageContainer = () => {
     const noChatSelected=true;
