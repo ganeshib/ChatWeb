@@ -4,8 +4,8 @@ import generateTokenAndSetCookie from "../utils/generateToken.js";
 
 export const signupUser=async(req,res)=>{
     try{
-        const {fullName,username,password,confirmpassword,gender}=req.body;
-        if(password!=confirmpassword){
+        const {fullName,username,password,confirmPassword,gender}=req.body;
+        if(password!==confirmPassword){
             return res.status(404).json({error:"Password doesnt match"})
         }   
         const user=await User.findOne({username})

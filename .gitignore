@@ -7,9 +7,14 @@ yarn-error.log*
 pnpm-debug.log*
 lerna-debug.log*
 
+# Node modules
 node_modules
+
+# Build files
 dist
 dist-ssr
+
+# Local environment files
 *.local
 
 # Editor directories and files
@@ -23,3 +28,4 @@ dist-ssr
 *.sln
 *.sw?
 .env
+Knives_Out_2019_1080p_DS4K_SDR_BluRay_x265_10bit_HEVC_ENG_AAC_7.mkv
