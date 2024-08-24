@@ -6,11 +6,10 @@ const app=express();
 
 const server=http.createServer(app);
 const io=new Server(server,{
-    cors: {
-        origin: '*',
-        methods: ['GET', 'POST'],
-        credentials: true
-      },
+    cors:{
+        origin:["http://localhost:3000"],
+        methods:["GET","POST"],
+    },
 })
 
 export const getReceiverSocketId=(receiverId)=>{
